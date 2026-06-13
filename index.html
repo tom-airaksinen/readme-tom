@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>README – Tom</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: #1a1a1a;
+    background: #f7f5f0;
+    padding: 40px 20px;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 52px 60px;
+    border-top: 4px solid #1a1a1a;
+  }
+
+  .header {
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0ddd8;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 38px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: #555;
+  }
+
+  .tagline {
+    font-size: 13px;
+    color: #666;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 40px;
+  }
+
+  .section {
+    padding-top: 0;
+  }
+
+  .section.full {
+    grid-column: 1 / -1;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0ddd8;
+    color: #1a1a1a;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 5px;
+    color: #2a2a2a;
+  }
+
+  li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: #bbb;
+  }
+
+  .quote {
+    grid-column: 1 / -1;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #444;
+    border-left: 3px solid #1a1a1a;
+    padding-left: 18px;
+    margin: 4px 0 8px;
+  }
+
+  .footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #e0ddd8;
+    font-size: 11px;
+    color: #aaa;
+    letter-spacing: 0.04em;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { padding: 36px 44px; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="eyebrow">Personal README · Kleer</div>
+    <h1>Hej, jag är Tom.<br><em>Produktägare sedan 2018.</em></h1>
+    <p class="tagline">Det här är en kort guide till mig – hur jag tänker, hur jag jobbar bäst och hur vi samarbetar väl.</p>
+  </div>
+
+  <div class="grid">
+
+    <div class="section full">
+      <div class="quote">"Produktägarens jobb är att minimera output och maximera outcome. Gud uppfann datorn för att människan ska slippa idiotarbete."</div>
+    </div>
+
+    <div class="section">
+      <h2>Vem jag är</h2>
+      <ul>
+        <li>Bakgrund som UX-designer och konsult på designbyråer i Sverige och Tokyo</li>
+        <li>Valde Kleer 2018 för att jobba långsiktigt – förstå produkt, domän och kunder på riktigt</li>
+        <li>Gillar teknik men <em>älskar</em> människan – drivs av att teknik ska ge användare superkrafter</li>
+        <li>Done is better than perfect: hellre något litet som skapar värde nu än den Perfekta Lösningen som aldrig levereras</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Hur jag jobbar bäst</h2>
+      <ul>
+        <li>En prioriterad sak per dag, bokad i kalendern – det är så jag skapar värde över tid</li>
+        <li>Timeboxar aktivt – kunskapsarbete kan ta 20 minuter eller 2 månader, nyckeln är rätt avvägning</li>
+        <li>Jobbar bäst proaktivt och metodiskt, inte reaktivt. Hjälp mig gärna hålla den ambitionen</li>
+        <li>UAT:ar snabbt – helst samma dag, senast dagen efter</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Kommunicera med mig</h2>
+      <ul>
+        <li>Inga pushnotiser på mejl eller Slack, mobil alltid på ljudlös – skriv när du vill, du stör aldrig</li>
+        <li>Brådskande? SMS eller ring: <strong>0736-579726</strong></li>
+        <li>Skicka gärna exakta länkar och ärenden – jag avskyr att behöva leta efter något du lika gärna kunde länkat direkt</li>
+        <li>Efter ett par Slack-meddelanden fram och tillbaka – föreslå gärna ett samtal eller skärmdelning. Det löser sig snabbare</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Feedback och samarbete</h2>
+      <ul>
+        <li>Knyter inte mitt människovärde till min prestation – jag älskar att lära mig</li>
+        <li>Ge mig gärna konstruktiv kritik, det är ovanligt att folk vågar och jag uppskattar det genuint</li>
+        <li>Vill skapa en atmosfär där alla vågar säga vad de tycker och tänka högt – inga idéer är för dumma</li>
+        <li>Min mardröm är att omedvetet hindra någon från att vara sitt bästa jag – säg till om det händer</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Vad du kan förvänta dig av mig</h2>
+      <ul>
+        <li>Stort engagemang för kunder och användare – det vi gör är meningsfullt, och det påminner jag gärna om</li>
+        <li>Förmedlar användarfeedback aktivt, både positiv och kritisk</li>
+        <li>Vill inte vara en flaskhals – försöker alltid svara och agera samma dag</li>
+        <li>Värnar om teamets fokus och försöker skydda er från onödig context switching</li>
+      </ul>
+    </div>
+
+    <div class="section full">
+      <h2>Människan bakom rollen</h2>
+      <ul>
+        <li>Bor i Årsta med Karin (snart 25 år tillsammans) och barnen Aron (14) och Hedvig (12)</li>
+        <li>Nyfiken på det mesta: resor, mat, vin, kultur – från opera till breakdance</li>
+        <li>Har jobbat på Sveriges ambassad i Moskva och på designbyrå i Tokyo; rest från Eldslandet till Lofoten och från Kalifornien till Kirgizistan</li>
+        <li>Talar flytande ryska, har studerat italienska och tyska – språk är en passion</li>
+        <li>Magister i kognitionsvetenskap med inriktning mot UX och tjänstedesign – ett tvärvetenskapligt ämne som rör sig mellan lingvistik, psykologi, datalogi, statistik, medvetandefilosofi, kulturantropologi och AI</li>
+        <li>Tar ett bad i Riddarfjärden eller Årstaviken varje morgon, året runt, oavsett väder</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer">Tom Airaksinen · Produktägare · Kleer</div>
+
+</div>
+</body>
+</html>
