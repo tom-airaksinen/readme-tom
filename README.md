@@ -11,10 +11,17 @@ En enkel, statisk sida som beskriver hur jag tänker, jobbar och samarbetar bäs
 Redigera `index.html`, commit:a och pusha till `main`. Pages bygger om automatiskt inom någon minut.
 
 ```sh
+git pull --rebase        # hämta ev. CNAME-commits som GitHub lagt till automatiskt
+# redigera index.html ...
 git add index.html
-git commit -m "Uppdatera README-innehåll"
+git commit -m "Uppdatera README-innehall"
 git push
 ```
+
+> **Obs:** GitHub lägger ibland till egna "Create/Delete CNAME"-commits direkt på remote
+> (händer när custom-domän/HTTPS konfigureras). Kör därför alltid `git pull --rebase` först –
+> annars nekas din push med "remote contains work that you do not have locally".
+> Undvik `!` och oavslutade `"` i commit-meddelanden (zsh klagar med `event not found` / `dquote>`).
 
 ## DNS
 
